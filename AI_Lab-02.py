@@ -1,75 +1,71 @@
+                 #Task-01
 count=0
 while(count<3):
     count=count+1
     print("Hello Greek")
-
+                 #Task-02
 count=0
 while count<3:count+=1 ; print("Hello Greek by While loop in single line ")
-
+                 #Task-03
 list=["geeks","for","geeks"]
 for i in list:
     # list[1]="Noor"  mutable
     print(i)
-
+                 #Task-04
 tuple=("Apple","Banana","Grapes")
 for tup in tuple:
     # tuple[1]="Noor"   immutable
     print(tup)
-
+                 #Task-05
 arr={1,2,3,4,5,6,7,8}
 for a  in arr:
     print(a)
-    
-
+                 #Task-06
 list=['hello','world',1,'done']
 for l in range(len(list)):
     print(list[l])
-
+                 #Task-07
 str='geeksforgeeks'
 for L in str:
     if L=='e' or L=='s':
         continue
     print('current letter',L)
-
+                 #Task-08
 str='geeksforgeeks'
 for L in str:
     if L=='f' or L=='o':
         break
     print('current letter',L)
-
+                 #Task-09
 def my_function():
     print("Hello World")
 my_function()
-
+                 #Task-10
 def addition(a,b):
     print(a+b," is product")
 addition(3.4,5)
-
+                 #Task-11
 def country(country1='Norway'):
     print("I am from ",country1)
 country('Pakistan')
 country('Turkey')
 country()
-
-
+                 #Task-12
 list=['hello','world','done',22,'Python']
 def List(a):
     for i in a:
         print(i)
 List(list)
-
+                 #Task-13
 def Return(y):
     return y+7
 print(Return(45))
 print(Return(7))
-
-
+                 #Task-14
 def KeyWords(ch1,ch2,ch3):
     print('The Youngest child is '+ ch3)
 KeyWords(ch3='Harry',ch1='Peter',ch2='john')
-
-
-
+                 #Task-15
 class my_Class():
     x=60
     name='Noor'
@@ -81,7 +77,7 @@ print(o1.x)
 print(o1.name)
 print(o1.dept)
 print(o1.roll_nmbr)
-
+                 #Task-16
 class Student:
     uni_name='PUGC'
     city='Gujranwala'
@@ -101,8 +97,7 @@ print(s3.name,s3.dept,s3.rollnmbr)
 print(s4.name,s4.dept,s4.rollnmbr)
 print(s5.name,s5.dept,s5.rollnmbr)
 print(s6.name,s6.dept,s6.rollnmbr)
-
-
+                 #Task-17
 class Person:
     def __init__(self,name,age):
         self.name=name
